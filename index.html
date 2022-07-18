@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to BatTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>SKT</span>
+        <!-- To do : Wifi Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>20:20</span>
+        <!-- To do : currnet time -->
+      </div>
+      <div class="status-bar__column">
+        <!-- To do : currnet battery rate-->
+        <!-- Battery Icon, Lightning Icon -->
+        <i class="fa-solid fa-wifi"></i>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <span>76%</span>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <img class="welcome-header__logo" src="image/bat_logo.png" />
+      <h1 class="welcome-header__title">Welcome to BatTalk</h1>
+      <p class="welcome-header__text">
+        If you have a BatTalk Accout, log in with your email or phon nunmber.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        type="text"
+        required
+        placeholder="Email or phone nunmber"
+        style="background: transparent"
+      />
+      <input
+        name="password"
+        type="password"
+        required
+        placeholder="Password"
+        style="background: transparent"
+      />
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" />
+      <a href="#">Find Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/fc872846c0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
