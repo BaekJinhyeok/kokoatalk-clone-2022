@@ -1,0 +1,47 @@
+#friends-diplay-link {
+  text-align: center;
+  display: block;
+  background-color: #fafafa;
+  padding: 10px 0px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#friends-diplay-link i {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#play-btn {
+  margin-left: 4px;
+  color: green;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__space {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 15px;
+}
+
+.friends-screen__space-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.music-box {
+  display: block;
+  border: 1px solid green;
+  color: black;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.friends-component {
+  margin-bottom: 15px;
+}

@@ -1,1 +1,128 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friend - BatTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>SKT</span>
+        <!-- To do : Wifi Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>20:20</span>
+        <!-- To do : currnet time -->
+      </div>
+      <div class="status-bar__column">
+        <!-- To do : currnet battery rate-->
+        <!-- Battery Icon, Lightning Icon -->
+        <i class="fa-solid fa-wifi"></i>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <span>76%</span>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">친구</h1>
+        <div class="screen-header__icons">
+          <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+          <span><i class="fa-solid fa-music fa-lg"></i></span>
+          <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        </div>
+    </header>
+
+    <a id="friends-diplay-link" href="#"><i class="fa-solid fa-circle-info"></i>
+      친구 이름 표시
+      <i class="fa-solid fa-chevron-right fa-sxs"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="image/Bat-profile.jpg" class="user-component__profilephoto user-component__profilephoto-lg" />
+          <div class="user-component__title">
+            <h3 class="user-component__usernames">배트맨</h3>
+            <h4 class="user-component__status-message">크리스찬 베일</h4>
+          </div>
+        </div>
+        <!-- <div class="user-component__column"></div> -->
+      </div>
+      <div class="friends-screen__space friends-screen__space-channel">
+        <div class="friends-screen__space-header">
+          <span>채널</span>
+          <i class="fa-solid fa-chevron-up fa-sxs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="image/chat-backgroun-cut.png" class="user-component__profilephoto user-component__profilephoto-sm" />
+            <div class="user-component__title">
+              <h3 class="user-component__usernames user-component__channel-friends">채널</h3>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>3</span>
+            <i class="fa-solid fa-chevron-right fa-sxs"></i>
+          </div>
+        </div>
+      </div>
+      <div class="friends-screen__space friends-screen__space-friends">
+        <div class="friends-screen__space-header">
+          <span>친구 2</span>
+          <i class="fa-solid fa-chevron-up fa-sxs"></i>
+        </div>
+        <div class="user-component friends-component">
+          <div class="user-component__column">
+            <img src="image/Catwoman-profile.jpg" class="user-component__profilephoto user-component__profilephoto-sm" />
+            <div class="user-component__title">
+              <h3 class="user-component__usernames user-component__channel-friends">캣우먼</h3>
+              <h4 class="user-component__status-message">앤 해서웨이</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <a class="music-box" href="#">한스 짐머 - 다크나이트 테마<i id="play-btn" class="fa-solid fa-play fa-sm"></i></a>
+          </div>
+        </div>
+        <div class="user-component friends-component">
+          <div class="user-component__column">
+            <img src="image/Joker-profile.jpg" class="user-component__profilephoto user-component__profilephoto-sm" />
+            <div class="user-component__title">
+              <h3 class="user-component__usernames user-component__channel-friends">조커</h3>
+              <h4 class="user-component__status-message">히스 레저</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <a class="music-box" href="#">G-Dragon - Crayon<i id="play-btn" class="fa-solid fa-play fa-sm"></i></a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fa-solid fa-user fa-2x"></i></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__notifications">25</span>
+            <i class="fa-regular fa-comment fa-2x"></i></a>
+        </li>
+        <li class="nav__btn"><a class="nav__link" href="#">
+          <i class="fa-solid fa-magnifying-glass fa-2x"></i></a></li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__new-notice"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i></i></a></li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/fc872846c0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
