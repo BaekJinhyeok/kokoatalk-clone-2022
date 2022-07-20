@@ -1,3 +1,8 @@
+#gear-notice {
+  left: 5px;
+  bottom: 20px;
+}
+
 .screen-header {
   display: flex;
   top: 25px;
@@ -17,4 +22,8 @@
 
 .screen-header__icons span {
   margin-left: 20px;
+}
+
+.screen-header__icons-gear {
+  position: relative;
 }
