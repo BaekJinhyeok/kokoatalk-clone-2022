@@ -1,0 +1,15 @@
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.last-message-time {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.unread-message-time {
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+}
