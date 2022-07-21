@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More - BatTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>SKT</span>
+        <!-- To do : Wifi Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>20:20</span>
+        <!-- To do : currnet time -->
+      </div>
+      <div class="status-bar__column">
+        <!-- To do : currnet battery rate-->
+        <!-- Battery Icon, Lightning Icon -->
+        <i class="fa-solid fa-wifi"></i>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <span>76%</span>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">더보기</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span class="screen-header__icons-gear">
+          <span id="gear-notice" class="nav__new-notice"></span>
+          <i class="fa-solid fa-gear fa-lg"></i>
+        </span>
+      </div>
+    </header>
+
+    <div class="more-screen__status-bar">
+      <div class="more-screen__status-bar-column">
+        <div class="more-screen__bank">
+          <span
+            >지갑
+            <i class="fa-solid fa-chevron-right fa-xs"></i>
+          </span>
+          <span>
+            <i class="fa-solid fa-shield fa-sm more-screen__status-icon"></i>
+            인증서</span
+          >
+        </div>
+        <div class="more-screen__recommend-message">
+          <span>
+            <i class="fa-solid fa-address-card fa-lg"></i>
+            톡명함, QR코드로 전달해 보세요.</span
+          >
+          <span><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+        </div>
+        <div class="more-screen__pay-balance">
+          <span>
+            <i class="fa-solid fa-comment fa-sm more-screen__status-icon"></i>
+            pay</span
+          >
+          <span>2,350,000원</span>
+        </div>
+        <div class="more-screen__pay">
+          <div class="more-screen__pay-functions">
+            <span>송금</span>
+            <div class="divider"></div>
+            <span>결제</span>
+            <div class="divider"></div>
+            <span>자산</span>
+          </div>
+          <div class="more-screen__pay-purchase-history">
+            <span>
+              <i class="fa-solid fa-cart-shopping more-screen__status-icon"></i>
+              구매내역</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main class="more-screen">
+      <div class="more-screen__icons-row">
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-gift"></i>
+            <span>선물하기</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-envelope"></i>
+            <span>메일</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-gamepad"></i>
+            <span>게임</span>
+          </div>
+        </div>
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-shop"></i>
+            <span>쇼핑하기</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-calendar"></i>
+            <span>캘린더</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-shirt"></i>
+            <span>패션</span>
+          </div>
+        </div>
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-face-smile"></i>
+            <span>이모티콘</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>지도</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-utensils"></i>
+            <span>주문하기</span>
+          </div>
+        </div>
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-clipboard-list"></i>
+            <span>톡서랍</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-comments"></i>
+            <span>오픈채팅</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-border-all"></i>
+            <span>전체서비스</span>
+          </div>
+        </div>
+      </div>
+      <div class="more-screen__suggest-slider">
+        <div class="more-screen__suggest-header">
+          <span>제안</span>
+        </div>
+        <div class="more-screen__slide-images">
+            <div class="section">
+                <input type="radio" name="slide" id="slide01" checked>
+                <input type="radio" name="slide" id="slide02">
+                <input type="radio" name="slide" id="slide03">
+                <div class="slidewrap">
+                    
+                    <ul class="slidelist">
+                        <!-- 슬라이드 영역 -->
+                        <li class="slideitem">
+                            <a>
+                                <img class="slide-image" src="image/batman-begins.jpg">
+                            </a>
+                        </li>
+                        <li class="slideitem">
+                            <a>
+                                <img class="slide-image" src="image/dark-knight.jpg">
+                            </a>
+                        </li>
+                        <li class="slideitem">
+                            <a>
+                                <img class="slide-image" src="image/dark-knight-rise.jpg">
+                            </a>
+                        </li class="slideitem">
+            
+                        <!-- 좌,우 슬라이드 버튼 -->
+                        <div class="slide-control">
+                            <div>
+                                <label for="slide03" class="left"></label>
+                                <label for="slide02" class="right"></label>
+                            </div>
+                            <div>
+                                <label for="slide01" class="left"></label>
+                                <label for="slide03" class="right"></label>
+                            </div>
+                            <div>
+                                <label for="slide02" class="left"></label>
+                                <label for="slide01" class="right"></label>
+                            </div>
+                        </div>
+            
+                    </ul>
+                    <!-- 페이징 -->
+                    <ul class="slide-pagelist">
+                        <li><label for="slide01"></label></li>
+                        <li><label for="slide02"></label></li>
+                        <li><label for="slide03"></label></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notifications badge">25</span>
+            <i class="fa-regular fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__new-notice"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/fc872846c0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

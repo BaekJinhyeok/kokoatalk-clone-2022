@@ -1,0 +1,112 @@
+#gaurd-icon {
+  margin-right: 3px;
+}
+
+.more-screen__status-bar {
+  background: linear-gradient(45deg, black, grey);
+  color: white;
+  font-weight: 600;
+}
+
+.more-screen__status-bar-column {
+  padding: 25px;
+}
+
+.more-screen__bank {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.more-screen__recommend-message {
+  padding: 5px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.more-screen__recommend-message span {
+  padding: 5px;
+}
+
+.more-screen__recommend-message span:last-child {
+  padding: 10px;
+}
+
+.more-screen__pay-balance {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.more-screen__pay {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-screen__pay-functions {
+  display: flex;
+  justify-content: center;
+}
+
+.more-screen__pay-functions .divider {
+  width: 1px;
+  height: 15px;
+  background-color: white;
+  margin: 0px 15px;
+}
+
+.more-screen__status-icon {
+  margin-right: 2px;
+  align-items: center;
+}
+
+.more-screen {
+  padding: var(--horizontal-space);
+}
+
+.more-screen__icons-row {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.more-screen__icons-row .icon-row {
+  display: flex;
+  margin: 0px 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-screen__icons-row .icon-row .icon-row__icon {
+  margin-bottom: 30px;
+}
+
+.more-screen__suggest-slider {
+  border-top: var(--repeat-border);
+  padding-top: 25px;
+}
+
+.more-screen__suggest-header {
+  font-size: 600;
+  font-size: 20px;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+.more-screen__slide-images {
+  padding-top: 40px;
+  border-radius: 5%;
+  background: linear-gradient(60deg, black, lightgrey);
+}

@@ -6,12 +6,15 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/slide.css";
 /* Screen */
 @import "screen/variables.css";
 @import "screen/login.css";
 @import "screen/friends.css";
 @import "screen/chats.css";
 @import "screen/find.css";
+@import "screen/more.css";
 
 body {
   /* background-image: url(https://github.com/BaekJinhyeok/kokoatalk-clone-2022/blob/main/image/background-img.jpg?raw=true); */
