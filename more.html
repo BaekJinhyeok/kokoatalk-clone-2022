@@ -146,55 +146,37 @@
           <span>제안</span>
         </div>
         <div class="more-screen__slide-images">
-            <div class="section">
-                <input type="radio" name="slide" id="slide01" checked>
-                <input type="radio" name="slide" id="slide02">
-                <input type="radio" name="slide" id="slide03">
-                <div class="slidewrap">
-                    
-                    <ul class="slidelist">
-                        <!-- 슬라이드 영역 -->
-                        <li class="slideitem">
-                            <a>
-                                <img class="slide-image" src="image/batman-begins.jpg">
-                            </a>
-                        </li>
-                        <li class="slideitem">
-                            <a>
-                                <img class="slide-image" src="image/dark-knight.jpg">
-                            </a>
-                        </li>
-                        <li class="slideitem">
-                            <a>
-                                <img class="slide-image" src="image/dark-knight-rise.jpg">
-                            </a>
-                        </li class="slideitem">
-            
-                        <!-- 좌,우 슬라이드 버튼 -->
-                        <div class="slide-control">
-                            <div>
-                                <label for="slide03" class="left"></label>
-                                <label for="slide02" class="right"></label>
-                            </div>
-                            <div>
-                                <label for="slide01" class="left"></label>
-                                <label for="slide03" class="right"></label>
-                            </div>
-                            <div>
-                                <label for="slide02" class="left"></label>
-                                <label for="slide01" class="right"></label>
-                            </div>
-                        </div>
-            
-                    </ul>
-                    <!-- 페이징 -->
-                    <ul class="slide-pagelist">
-                        <li><label for="slide01"></label></li>
-                        <li><label for="slide02"></label></li>
-                        <li><label for="slide03"></label></li>
-                    </ul>
-                </div>
+          <div class="slidebox">
+            <input type="radio" name="slide" id="slide01" checked />
+            <input type="radio" name="slide" id="slide02" />
+            <input type="radio" name="slide" id="slide03" />
+            <input type="radio" name="slide" id="slide04" />
+            <ul class="slidelist">
+              <li class="slideitem">
+                <a><img src="image/batman-begins.jpg" /></a>
+              </li>
+              <li class="slideitem">
+                <a><img src="image/dark-knight.jpg" /></a>
+              </li>
+              <li class="slideitem">
+                <a><img src="image/dark-knight-rise.jpg" /></a>
+              </li>
+            </ul>
+            <div class="slide-control">
+              <div class="control01">
+                <label for="slide03" class="prev"></label>
+                <label for="slide02" class="next"></label>
+              </div>
+              <div class="control02">
+                <label for="slide01" class="prev"></label>
+                <label for="slide03" class="next"></label>
+              </div>
+              <div class="control03">
+                <label for="slide02" class="prev"></label>
+                <label for="slide01" class="next"></label>
+              </div>
             </div>
+          </div>
         </div>
       </div>
     </main>
