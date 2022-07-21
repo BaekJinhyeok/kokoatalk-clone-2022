@@ -1,0 +1,43 @@
+.settings-setting {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings-setting i {
+  margin-right: 20px;
+  width: 20px;
+}
+
+.settings-setting:last-child {
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+.settings__setting-column {
+  display: flex;
+  position: relative;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
+
+.settings-new-icon {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 16px;
+  height: 16px;
+  color: white;
+  right: -25px;
+  font-size: 10px;
+  border-radius: 50%;
+  position: absolute;
+}
