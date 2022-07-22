@@ -46,3 +46,27 @@
 .friends-component {
   margin-bottom: 15px;
 }
+
+@keyframes SplashScreenAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  position: absolute;
+  background: linear-gradient(45deg, black, var(--deep-grey));
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  animation: SplashScreenAnimation 0.25s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
